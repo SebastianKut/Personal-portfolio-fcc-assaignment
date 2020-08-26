@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Lato', sans-serif;
-color: gray;}
+  color: gray;}
 
 main {
   display: flex;
@@ -22,7 +22,6 @@ a {
   text-decoration: none;
   color: inherit;
 }
-
 
 nav {
   position: fixed;
@@ -48,10 +47,10 @@ nav li {
 
 #welcome-section {
   background: url(https://drscdn.500px.org/user_cover/52036301/q%3D65_m%3D2048/v2?webp=true&v=1&sig=cf962b839db051f140ce4963d8fdcde469daa6e5d7fbea83b3942b951a710881) no-repeat center center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -81,7 +80,6 @@ nav li {
   color: gray;
  }
 
-
 #projects {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -89,7 +87,6 @@ nav li {
   grid-template-areas: "item1 item2 item3";
    grid-gap: 20px 20px;
 }
-
 
 figcaption {
   display: flex;
@@ -180,8 +177,6 @@ footer {
   justify-content: space-between;
   padding: 2rem;
   border-top: 2px solid gray;
-  
-  
 }
 
 @media (max-width: 1200px) {
